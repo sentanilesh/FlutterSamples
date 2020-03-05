@@ -1,6 +1,6 @@
-# myexp
+# Flutter Samples
 
-A Flutter Web Application
+Some sample of Flutter web
 
 ## Getting Started
 

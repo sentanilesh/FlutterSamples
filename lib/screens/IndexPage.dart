@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myexp/ex1/RegisterScreen.dart';
 import 'package:myexp/ex2/AnimationScreen.dart';
 import 'package:myexp/ex3/LoginScreen.dart';
+import 'package:myexp/ex4/PortfolioScreen.dart';
 
 class IndexPage extends StatefulWidget {
   @override
@@ -34,6 +35,12 @@ class _IndexPageState extends State<IndexPage> {
               child: Text("Login"),
               onPressed: () {
                 Navigator.pushNamed(context, LoginScreenEx.ROUTENAME);
+              },
+            ),
+            RaisedButton(
+              child: Text("Portfolio"),
+              onPressed: () {
+                Navigator.pushNamed(context, PortfolioScreen.ROUTENAME);
               },
             ),
           ],
